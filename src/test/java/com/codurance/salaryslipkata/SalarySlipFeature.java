@@ -14,16 +14,19 @@ import static org.mockito.Mockito.verify;
 public class SalarySlipFeature {
 
   private SalarySlipGenerator salarySlipGenerator;
+  private Employee employee;
 
   @Mock
   Console console;
 
   @Mock
-  Employee employee;
+  SalarySlipRepository salarySlipRepository;
 
   @BeforeEach
   void setUp() {
-    salarySlipGenerator = new SalarySlipGenerator();
+    salarySlipRepository = Mockito.mock(SalarySlipRepository.class);
+    salarySlipGenerator = new SalarySlipGenerator(salarySlipRepository);
+    employee = new Employee();
   }
 
   @Test

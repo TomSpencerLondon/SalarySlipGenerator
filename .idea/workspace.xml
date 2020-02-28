@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aad9f84-0e7a-40ec-a966-929ba2f9e775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/salaryslipkata/SalarySlip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/salaryslipkata/SalarySlipPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/salaryslipkata/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/salaryslipkata/SalarySlipRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/salaryslipkata/SalarySlipGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/salaryslipkata/SalarySlipGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/salaryslipkata/SalarySlipFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/salaryslipkata/SalarySlipFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/salaryslipkata/SalarySlipGeneratorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/salaryslipkata/SalarySlipGeneratorShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/salaryslipkata/EmployeeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/salaryslipkata/SalarySlipGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/salaryslipkata/SalarySlipGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/salaryslipkata/SalarySlipFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/salaryslipkata/SalarySlipFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/salaryslipkata/SalarySlipGeneratorShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/salaryslipkata/SalarySlipGeneratorShould.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,22 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalarySlipGeneratorShould.stores_employee">
-    <configuration name="SalarySlipFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SalarySlip" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="feature.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="feature" />
-      <option name="MAIN_CLASS_NAME" value="feature.SalarySlipFeature" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SalarySlipGeneratorShould.prints_a_salary_slip">
     <configuration name="SalarySlipFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalarySlip" />
       <extension name="coverage">
@@ -101,19 +93,19 @@
       <module name="SalarySlip" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="feature.*" />
+          <option name="PATTERN" value="com.codurance.salaryslipkata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="feature" />
-      <option name="MAIN_CLASS_NAME" value="feature.SalarySlipFeature" />
+      <option name="PACKAGE_NAME" value="com.codurance.salaryslipkata" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.salaryslipkata.SalarySlipFeature" />
       <option name="METHOD_NAME" value="generate_monthly_salary_slip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalarySlipFeature.generate_monthly_salary_slip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalarySlipGeneratorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalarySlip" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +114,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.codurance.salaryslipkata" />
-      <option name="MAIN_CLASS_NAME" value="com.codurance.salaryslipkata.SalarySlipFeature" />
-      <option name="METHOD_NAME" value="generate_monthly_salary_slip" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.salaryslipkata.SalarySlipGeneratorShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalarySlipGeneratorShould.prints_a_salary_slip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SalarySlip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.salaryslipkata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance.salaryslipkata" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.salaryslipkata.SalarySlipGeneratorShould" />
+      <option name="METHOD_NAME" value="prints_a_salary_slip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalarySlipGeneratorShould.prints_a_salary_slip" />
+        <item itemvalue="JUnit.SalarySlipGeneratorShould" />
         <item itemvalue="JUnit.SalarySlipGeneratorShould.stores_employee" />
         <item itemvalue="JUnit.SalarySlipFeature.generate_monthly_salary_slip (1)" />
         <item itemvalue="JUnit.SalarySlipFeature (1)" />
-        <item itemvalue="JUnit.SalarySlipFeature" />
-        <item itemvalue="JUnit.SalarySlipFeature.generate_monthly_salary_slip" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582891920669</updated>
       <workItem from="1582891926281" duration="3315000" />
-      <workItem from="1582895679748" duration="12163000" />
+      <workItem from="1582895679748" duration="15929000" />
     </task>
     <servers />
   </component>

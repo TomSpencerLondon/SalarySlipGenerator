@@ -1,10 +1,13 @@
 package com.codurance.salaryslipkata;
 
 public class SalarySlipGenerator {
-  SalarySlipGenerator(){
+  private SalarySlipRepository salarySlipRepository;
 
+  public SalarySlipGenerator(SalarySlipRepository salarySlipRepository) {
+    this.salarySlipRepository = salarySlipRepository;
   }
-  public void generateFor(Employee employee) {
 
+  public void generateFor(Employee employee) {
+    salarySlipRepository.add(employee);
   }
 }
